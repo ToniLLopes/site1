@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body{ background-color: white;
+color:black;}
+
+.conteiner{
+    max-width: 1400px;
+    margin: 0 auto; 
+    padding: 10px 5%;
+    flex-wrap: wrap;
+}
+
+header{
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    align-items: center; 
+    /*justify-content: space-between; separar logo dos items */
+}
+nav ul{
+    align-items: center;
+    display: flex;
+}
+nav ul a{
+    color: white;
+    margin: 0 20px;
+    font-size: 20px;
+}
+nav ul a:hover{
+    color: silver;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.card-item{
+    background-color: black;
+    color: white;
+    margin: 15px 73px;
+    border-radius: 14px;
+    text-align: center;
+    padding: 20px;
+}
+.card-item img{
+    width: 200px;
+    height: 200px;
+}
+
+.card-item a{
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 6px;  
+    border-radius: 100px;
+    font-size: larger;
+}
+.card-item a:hover{
+    background-color: silver;
+}
+
+
+.card-item p{
+    font-size: 19px;
+    margin-top: 7px;
+    margin-bottom: 19px;
+   
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+footer p{
+padding: 19px;
+margin: 0;
+border-radius: 10px;
+margin-top: 70px;
+}
+
+/*SOBRE*/
+
+.sobre{
+    display: flex;
+    text-align: left;
+}
+.sobretexto{
+    margin: 20px;
+    padding-right: 45%;
+}
+.sobretexto h2{
+    margin: 10px;
+}
+.sobretexto p{
+    margin-left: 10px;
+}
+/*FORMULARIO*/
+
+.formulario{
+    width: 50%;
+}
+.formulario h1{
+    font-size: 37px ;
+    padding: 15px;
+    margin : 20px 30px;
+}
+
+.formulario input{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    height: 29px;
+    width: 100%;
+    border-radius: 9px;
+    border: 1px solid silver;
+}
+.formulario input:focus,
+.formulario textarea:focus{
+    border: 1px solid grey;
+}
+.formulario textarea{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    height: 150px;
+    width: 100%;
+    border-radius: 9px;
+    border: 1px solid silver;
+    resize: none;
+}
+
+.dois:hover{
+    background-color: black;
+    color: white;
+       
+}
