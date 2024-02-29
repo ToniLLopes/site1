@@ -146,6 +146,13 @@ margin-top: 70px;
 
 .dois:hover{
     background-color: black;
-    color: white;
-       
+    color: white; 
+}
+@media screen and (max-width: 840px){
+        body ,.cards, .conteiner{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+        } 
 }
